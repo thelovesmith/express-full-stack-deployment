@@ -107,7 +107,7 @@ This option is the easiest option of the two, but there's a small trade off. Alt
 
 ```js
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/Todos');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/yourDbName');
 
 ```
 
@@ -155,7 +155,7 @@ heroku config:set MONGOLAB_URI=mongodb://heroku:<yourpassword>@ds117336.mlab.com
 
 ```js
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/Todos');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/yourDbName');
 
 ```
 
